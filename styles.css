@@ -1,0 +1,103 @@
+
+.box1{
+    width:500px;
+    height:100px;
+background-color: blue;
+transition-duration: 5s;
+transition-property: all;
+/* transition-timing-function: ease; */
+/* transition-timing-function: linear; */
+/* transition-timing-function: ease-in; */
+/* transition-timing-function: ease-out; */
+transition-timing-function: ease-in-out;
+transition-delay: 200ms;
+}
+.box1:hover{
+background-color: pink; 
+width: 50px;
+/* height:300px; */
+ 
+}
+.box2{
+    width:200px;
+    height:100px;
+background-color: yellow;
+/* transform:translate(100px,100px); */
+}
+.box2:hover{
+    background-color: brown;
+    /* /* width:50px; */
+    /* height: 200px;  */
+    /* transform: rotate(270deg); */
+/* transform:translate(400px); */
+/* transform: scale(2, 2); */
+/* transform: skewX(80deg); */
+transform: skewY(45deg);
+}
+.parent{
+    display: grid;
+    width: 75%;
+    /* margin:auto; */
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    /* border: 1px solid black; */
+    grid-gap: 10px;
+}
+.child1{
+    background-color: red;
+}
+.child2{
+    background-color: red;
+}
+.child3{
+    background-color: red;
+}
+.child4{
+    background-color: red;
+}
+.child5{
+    background-color: red;
+}
+.child6{
+    background-color: red;
+}
+.child7{
+    background-color: red;
+   /* grid-column-start: 1;
+   grid-column-end: 4; */
+}
+.child8{
+    background-color: red;
+}
+.child9{
+    background-color: red;
+}
+.one:link{
+    color:black;
+    background-color: green;
+}
+.one1:visited{
+    color:yellow;
+}
+.one2:hover{
+    color:rgb(192, 241, 255);
+}
+.one3:active{
+    color:rgb(219, 18, 18);
+}
+h3~p{
+    color: maroon;
+    background-color: darkturquoise;
+}
+h3+h4 {
+    color: yellow;
+    background-color: black;
+}
+div>h5{
+    color: palegreen;
+    background-color: hotpink;
+}
+div p{
+    color: red;
+    background-color: gold;
+}
